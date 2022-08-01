@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>Калькулятор</h1>
+        <div class="input-field">
+          <input
+            type="number"
+            placeholder="Число 1"
+            id="num1"
+            style="margin-bottom: 5px"
+          />
+          <br />
+          <input type="number" placeholder="Число 2" id="num2" />
+        </div>
+        <div class="buttons">
+          <button class="btn" id="add" style="background: #eb0a0a">+</button>
+          <button class="btn" id="sub" style="background: #d9ff00">-</button>
+          <button class="btn" id="mult" style="background: #97ce31">x</button>
+          <button class="btn" id="divide" style="background: #3fb9d8">/</button>
+        </div>
+      </div>
+
+      <div class="final">
+        <div class="information">
+          <div class="card-content">
+            <div class="card-title" id="output"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

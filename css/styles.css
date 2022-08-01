@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: rgb(203, 236, 236);
+  color: black;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-field {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.information {
+  display: none;
+  text-align: center;
+}
+
+.row {
+  margin-top: 300px;
+}
+
+.btn {
+  width: 41px;
+}
