@@ -1,1 +1,1 @@
-https://codeedocc.github.io/calculator/calc.html
+Проект: https://codeedocc.github.io/calculator/calc.html
